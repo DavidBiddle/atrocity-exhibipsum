@@ -2,8 +2,7 @@ document.addEventListener('DOMContentLoaded', function(){
   document.getElementById('lorem-form').addEventListener('submit', function(e){
     //on form submit, generate the text
     e.preventDefault();
-    var output = displayLorem(wordArray);
-    document.getElementById('output-zone').innerHTML = output;
+    ajaxCall();
   });
 });
 
@@ -33,7 +32,7 @@ function randomiseWords(wordArray){
   return wordArray;
 }
 
-function displayLorem(wordArray){
+function outputLorem(wordArray){
   event.preventDefault();
   wordArray = expandArray(wordArray);
   wordArray = randomiseWords(wordArray);
@@ -41,5 +40,17 @@ function displayLorem(wordArray){
   for(i=0;i<900;i++){
     lorem = lorem + " " + wordArray[i];
   }
-  return lorem;
+  document.getElementById('output-zone').innerHTML = (lorem);
 }
+
+function ajaxCall(callback){
+  var xmlhttp;
+  xmlhttp = new XMLHttpRequest();
+  xmlhttp.onload = function() {
+    wordArray = JSON.parse(xmlhttp.responseText);
+    outputLorem(wordArray);
+  }
+  xmlhttp.open("GET", "data/filtered.json", true);
+  xmlhttp.send();
+}
+
