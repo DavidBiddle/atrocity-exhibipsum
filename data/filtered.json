@@ -1,23 +1,23 @@
 [
   {
     "word":"the",
-    "weight":3533
+    "weight":2000
   },
   {
     "word":"of",
-    "weight":1784
+    "weight":800
   },
   {
     "word":"a",
-    "weight":936
+    "weight":600
   },
   {
     "word":"and",
-    "weight":891
+    "weight":600
   },
   {
     "word":"in",
-    "weight":662
+    "weight":500
   },
   {
     "word":"to",
