@@ -18,27 +18,13 @@ function expandArray(wordArray){
   return expandedArray;
 }
 
-function randomiseWords(wordArray){
-//randomizes the contents of an array
-  var i = wordArray.length, j, tempi, tempj;
-  if ( i == 0 ) return false;
-  while ( --i ) {
-    j = Math.floor( Math.random() * ( i + 1 ) );
-    tempi = wordArray[i];
-    tempj = wordArray[j];
-    wordArray[i] = tempj;
-    wordArray[j] = tempi;
-  }
-  return wordArray;
-}
 
 function outputLorem(wordArray){
   event.preventDefault();
   wordArray = expandArray(wordArray);
-  wordArray = randomiseWords(wordArray);
   lorem = "";
   for(i=0;i<900;i++){
-    lorem = lorem + " " + wordArray[i];
+    lorem = lorem + " " + wordArray[Math.floor(Math.random() * wordArray.length)];
   }
   document.getElementById('output-zone').innerHTML = (lorem);
 }
