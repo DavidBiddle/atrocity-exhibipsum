@@ -52,10 +52,6 @@
     "weight":256
   },
   {
-    "word":"s",
-    "weight":254
-  },
-  {
     "word":"at",
     "weight":249
   },
@@ -256,7 +252,7 @@
     "weight":52
   },
   {
-    "word":"kennedy",
+    "word":"Kennedy",
     "weight":52
   },
   {
@@ -440,7 +436,7 @@
     "weight":35
   },
   {
-    "word":"i",
+    "word":"I",
     "weight":35
   },
   {
@@ -592,7 +588,7 @@
     "weight":26
   },
   {
-    "word":"reagan",
+    "word":"Reagan",
     "weight":26
   },
   {
@@ -676,16 +672,8 @@
     "weight":24
   },
   {
-    "word":"t",
-    "weight":24
-  },
-  {
     "word":"waited",
     "weight":24
-  },
-  {
-    "word":"c",
-    "weight":23
   },
   {
     "word":"himself",
@@ -696,7 +684,7 @@
     "weight":23
   },
   {
-    "word":"james",
+    "word":"James",
     "weight":23
   },
   {
@@ -724,7 +712,7 @@
     "weight":22
   },
   {
-    "word":"john",
+    "word":"John",
     "weight":22
   },
   {
@@ -804,10 +792,6 @@
     "weight":20
   },
   {
-    "word":"b",
-    "weight":20
-  },
-  {
     "word":"beach",
     "weight":20
   },
@@ -832,7 +816,7 @@
     "weight":20
   },
   {
-    "word":"nader",
+    "word":"Nader",
     "weight":20
   },
   {
@@ -877,10 +861,6 @@
   },
   {
     "word":"contours",
-    "weight":19
-  },
-  {
-    "word":"e",
     "weight":19
   },
   {
@@ -1000,10 +980,6 @@
     "weight":17
   },
   {
-    "word":"l",
-    "weight":17
-  },
-  {
     "word":"postures",
     "weight":17
   },
@@ -1069,10 +1045,6 @@
   },
   {
     "word":"immense",
-    "weight":16
-  },
-  {
-    "word":"m",
     "weight":16
   },
   {
@@ -1160,7 +1132,7 @@
     "weight":15
   },
   {
-    "word":"jacqueline",
+    "word":"Jacqueline",
     "weight":15
   },
   {
@@ -1236,10 +1208,6 @@
     "weight":14
   },
   {
-    "word":"j",
-    "weight":14
-  },
-  {
     "word":"junction",
     "weight":14
   },
@@ -1272,7 +1240,7 @@
     "weight":14
   },
   {
-    "word":"ralph",
+    "word":"Ralph",
     "weight":14
   },
   {
@@ -1352,7 +1320,7 @@
     "weight":13
   },
   {
-    "word":"johnson",
+    "word":"Johnson",
     "weight":13
   },
   {
@@ -1476,7 +1444,7 @@
     "weight":12
   },
   {
-    "word":"elizabeth",
+    "word":"Elizabeth",
     "weight":12
   },
   {
@@ -1568,7 +1536,7 @@
     "weight":12
   },
   {
-    "word":"taylor",
+    "word":"Taylor",
     "weight":12
   },
   {
@@ -1688,7 +1656,7 @@
     "weight":11
   },
   {
-    "word":"jackie",
+    "word":"Jackie",
     "weight":11
   },
   {
@@ -1857,10 +1825,6 @@
   },
   {
     "word":"example",
-    "weight":10
-  },
-  {
-    "word":"f",
     "weight":10
   },
   {
@@ -2200,10 +2164,6 @@
     "weight":9
   },
   {
-    "word":"p",
-    "weight":9
-  },
-  {
     "word":"perspectives",
     "weight":9
   },
@@ -2424,10 +2384,6 @@
     "weight":8
   },
   {
-    "word":"g",
-    "weight":8
-  },
-  {
     "word":"grass",
     "weight":8
   },
@@ -2436,7 +2392,7 @@
     "weight":8
   },
   {
-    "word":"kenneth",
+    "word":"Kenneth",
     "weight":8
   },
   {
@@ -2648,10 +2604,6 @@
     "weight":7
   },
   {
-    "word":"d",
-    "weight":7
-  },
-  {
     "word":"deck",
     "weight":7
   },
@@ -2812,7 +2764,7 @@
     "weight":7
   },
   {
-    "word":"marilyn",
+    "word":"Marilyn",
     "weight":7
   },
   {
@@ -2904,10 +2856,6 @@
     "weight":7
   },
   {
-    "word":"r",
-    "weight":7
-  },
-  {
     "word":"radio",
     "weight":7
   },
@@ -2936,7 +2884,7 @@
     "weight":7
   },
   {
-    "word":"ronald",
+    "word":"Ronald",
     "weight":7
   },
   {
@@ -3025,10 +2973,6 @@
   },
   {
     "word":"voice",
-    "weight":7
-  },
-  {
-    "word":"w",
     "weight":7
   },
   {
@@ -3304,10 +3248,6 @@
     "weight":6
   },
   {
-    "word":"h",
-    "weight":6
-  },
-  {
     "word":"hair",
     "weight":6
   },
@@ -3444,7 +3384,7 @@
     "weight":6
   },
   {
-    "word":"monroe",
+    "word":"Monroe",
     "weight":6
   },
   {
@@ -3896,7 +3836,7 @@
     "weight":5
   },
   {
-    "word":"dean",
+    "word":"Dean",
     "weight":5
   },
   {
@@ -4085,10 +4025,6 @@
   },
   {
     "word":"jeanne",
-    "weight":5
-  },
-  {
-    "word":"k",
     "weight":5
   },
   {
@@ -4533,10 +4469,6 @@
   },
   {
     "word":"work",
-    "weight":5
-  },
-  {
-    "word":"x",
     "weight":5
   },
   {
@@ -5673,10 +5605,6 @@
   },
   {
     "word":"trunk",
-    "weight":4
-  },
-  {
-    "word":"u",
     "weight":4
   },
   {
