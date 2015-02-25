@@ -15,16 +15,16 @@ function expandArray(wordArray){
 }
 
 
-function outputLorem(wordArray){
+function outputLorem(wordArray,paragraphs,sentenceCentre,sentenceMargin,wordCentre,wordMargin){
   wordArray = expandArray(wordArray);
   lorem = "";
-  totalParagraphs = 3;
+  totalParagraphs = paragraphs;
   for(i=0;i<totalParagraphs;i++){
     paragraph = "";
-    sentencesPerParagraph =  randPlusMinus(5,2);
+    sentencesPerParagraph =  randPlusMinus(sentenceCentre,sentenceMargin);
     for(j=0;j<sentencesPerParagraph;j++){
       sentence = "";
-      sentenceLength = randPlusMinus(15,8);
+      sentenceLength = randPlusMinus(wordCentre,wordMargin);
       for(k=0;k<sentenceLength;k++){
         word = randomWord(wordArray);
         sentence = sentence + word + " ";
@@ -47,7 +47,12 @@ function ajaxCall(callback){
     document.getElementById('lorem-form').addEventListener('submit', function(e){
       //on form submit, generate the text
       e.preventDefault();
-      outputLorem(wordArray);
+      var paragraphs = parseInt(this.elements['paragraphs'].value);
+      var sentenceCentre = parseInt(this.elements['sentenceCentre'].value);
+      var sentenceMargin = parseInt(this.elements['sentenceMargin'].value);
+      var wordCentre = parseInt(this.elements['wordCentre'].value);
+      var wordMargin = parseInt(this.elements['wordMargin'].value);
+      outputLorem(wordArray,paragraphs,sentenceCentre,sentenceMargin,wordCentre,wordMargin);
     });
   }
   xmlhttp.open("GET", "data/filtered.json", true);
