@@ -1,5 +1,5 @@
 body{
-  background: url('../img/dali2.jpg');
+  background: url('../img/dali.jpg');
   background-size: cover;
   background-attachment: fixed;
   margin:0;
@@ -27,5 +27,15 @@ h1{
 h2{
   font-size: 36px;
   text-transform: uppercase; 
+  margin-bottom: 1em;
+}
+
+form label, form input[type=submit]{
+  display: block;
+  font-size: 16px;  
+  font-family: 'Oswald',impact,sans-serif;
+}
+
+form input[type=text]{
   margin-bottom: 1em;
 }
