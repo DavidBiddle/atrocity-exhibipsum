@@ -116,7 +116,7 @@
     "weight":97
   },
   {
-    "word":"nathan",
+    "word":"Nathan",
     "weight":97
   },
   {
@@ -132,7 +132,7 @@
     "weight":94
   },
   {
-    "word":"dr",
+    "word":"Dr",
     "weight":92
   },
   {
@@ -253,7 +253,7 @@
   },
   {
     "word":"Kennedy",
-    "weight":52
+    "weight":4
   },
   {
     "word":"left",
@@ -460,7 +460,7 @@
     "weight":34
   },
   {
-    "word":"koester",
+    "word":"Koester",
     "weight":34
   },
   {
@@ -589,7 +589,7 @@
   },
   {
     "word":"Reagan",
-    "weight":26
+    "weight":8
   },
   {
     "word":"sat",
@@ -684,7 +684,7 @@
     "weight":23
   },
   {
-    "word":"James",
+    "word":"James Dean",
     "weight":23
   },
   {
@@ -712,7 +712,7 @@
     "weight":22
   },
   {
-    "word":"John",
+    "word":"John F Kennedy",
     "weight":22
   },
   {
@@ -817,7 +817,7 @@
   },
   {
     "word":"Nader",
-    "weight":20
+    "weight":6
   },
   {
     "word":"new",
@@ -1132,7 +1132,7 @@
     "weight":15
   },
   {
-    "word":"Jacqueline",
+    "word":"Jacqueline Kennedy",
     "weight":15
   },
   {
@@ -1240,7 +1240,7 @@
     "weight":14
   },
   {
-    "word":"Ralph",
+    "word":"Ralph Nader",
     "weight":14
   },
   {
@@ -1444,7 +1444,7 @@
     "weight":12
   },
   {
-    "word":"Elizabeth",
+    "word":"Elizabeth Taylor",
     "weight":12
   },
   {
@@ -1533,10 +1533,6 @@
   },
   {
     "word":"spinal",
-    "weight":12
-  },
-  {
-    "word":"Taylor",
     "weight":12
   },
   {
@@ -1656,7 +1652,7 @@
     "weight":11
   },
   {
-    "word":"Jackie",
+    "word":"Jackie Kennedy",
     "weight":11
   },
   {
@@ -2764,7 +2760,7 @@
     "weight":7
   },
   {
-    "word":"Marilyn",
+    "word":"Marilyn Monroe",
     "weight":7
   },
   {
@@ -2884,7 +2880,7 @@
     "weight":7
   },
   {
-    "word":"Ronald",
+    "word":"Ronald Reagan",
     "weight":7
   },
   {
@@ -3381,10 +3377,6 @@
   },
   {
     "word":"moment",
-    "weight":6
-  },
-  {
-    "word":"Monroe",
     "weight":6
   },
   {
@@ -5064,11 +5056,11 @@
     "weight":4
   },
   {
-    "word":"jfk",
+    "word":"JFK",
     "weight":4
   },
   {
-    "word":"joseph",
+    "word":"Joseph",
     "weight":4
   },
   {
@@ -5096,7 +5088,7 @@
     "weight":4
   },
   {
-    "word":"laurence",
+    "word":"Laurence",
     "weight":4
   },
   {
@@ -5216,7 +5208,7 @@
     "weight":4
   },
   {
-    "word":"nancy",
+    "word":"Nancy Reagan",
     "weight":4
   },
   {
