@@ -25,12 +25,12 @@ function outputLorem(wordArray){
   totalParagraphs = 3;
   for(i=0;i<totalParagraphs;i++){
     paragraph = "";
-    sentencesPerParagraph =  Math.floor(Math.random() * 4) + 3;
+    sentencesPerParagraph =  randPlusMinus(5,2);
     for(j=0;j<sentencesPerParagraph;j++){
       sentence = "";
-      sentenceLength = Math.floor(Math.random() * 16) + 7;
+      sentenceLength = randPlusMinus(15,8);
       for(k=0;k<sentenceLength;k++){
-        word = wordArray[Math.floor(Math.random() * wordArray.length)];
+        word = randomWord(wordArray);
         sentence = sentence + word + " ";
       }
       sentence = formatSentence(sentence);
@@ -43,6 +43,7 @@ function outputLorem(wordArray){
 }
 
 function ajaxCall(callback){
+  //retrieves data file via AJAX and then calls output function
   var xmlhttp;
   xmlhttp = new XMLHttpRequest();
   xmlhttp.onload = function() {
@@ -54,10 +55,23 @@ function ajaxCall(callback){
 }
 
 function formatSentence(sentence){
+  //capitalises first letter and adds full stop to end of sentence
   sentence = sentence.charAt(0).toUpperCase() + sentence.slice(1,sentence.length - 1) + ". ";
   return sentence;
 }
+
 function formatParagraph(paragraph){
   paragraph = "<p>" + paragraph + "</p>";
   return paragraph;
+}
+
+function randomWord(array){
+  //returns random word from an array
+  word = array[Math.floor(Math.random() * array.length)];
+  return word;
+}
+
+function randPlusMinus(centre,margin){
+  //returns a number baseline plus or minus margin
+  return Math.floor(Math.random() * margin * 2) + centre - margin;
 }
