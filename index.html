@@ -3,20 +3,25 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <form id="lorem-form">
-      <label for="paragraphs">Number of paragraphs:</label>
-      <input type="text" name="paragraphs"><br>
-      <label for="sentenceCentre">Number of sentences per paragraph:</label>
-      <input type="text" name="sentenceCentre">±
-      <input type="text" name="sentenceMargin"><br>
-      <label for="sentenceCentre">Number of words per sentence:</label>
-      <input type="text" name="wordCentre">±
-      <input type="text" name="wordMargin"><br>
-      <input type="submit" value="Generate!">
-    </form>
-    <section id="output-zone"></section>
+    <div id="wrapper">
+      <h1>The Atrocity Exhibipsum</h1>
+      <h2>Ballardian Text Generator</h2>
+      <form id="lorem-form">
+        <label for="paragraphs">Number of paragraphs:</label><br>
+        <input type="text" name="paragraphs"><br>
+        <label for="sentenceCentre">Number of sentences per paragraph:</label><br>
+        <input type="text" name="sentenceCentre">±
+        <input type="text" name="sentenceMargin"><br>
+        <label for="sentenceCentre">Number of words per sentence:</label><br>
+        <input type="text" name="wordCentre">±
+        <input type="text" name="wordMargin"><br>
+        <input type="submit" value="Generate!">
+      </form>
+      <section id="output-zone"></section>
+    </div>
     <script src="js/main.js"></script>
   </body>
 </html>

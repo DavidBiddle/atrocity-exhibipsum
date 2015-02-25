@@ -1,4 +1,31 @@
 body{
+  background: url('../img/dali2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin:0;
+  line-height: 1.48;
+  font-family: 'Oswald',impact,sans-serif;
+  color: #1E1E20;
+}
+
+#wrapper{
+  margin-top: 0;
   max-width: 600px;
-  font-family: helvetica, arial,sans-serif;
+  background-color: #E7E7DB;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 0 20px 20px;
+}
+
+h1{
+  color: #DF0901;
+  font-size: 72px;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+}
+
+h2{
+  font-size: 36px;
+  text-transform: uppercase; 
+  margin-bottom: 1em;
 }
