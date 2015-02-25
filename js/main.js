@@ -1,9 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-  document.getElementById('lorem-form').addEventListener('submit', function(e){
-    //on form submit, generate the text
-    e.preventDefault();
-    ajaxCall();
-  });
+  ajaxCall();
 });
 
 function expandArray(wordArray){
@@ -48,7 +44,11 @@ function ajaxCall(callback){
   xmlhttp = new XMLHttpRequest();
   xmlhttp.onload = function() {
     wordArray = JSON.parse(xmlhttp.responseText);
-    outputLorem(wordArray);
+    document.getElementById('lorem-form').addEventListener('submit', function(e){
+      //on form submit, generate the text
+      e.preventDefault();
+      outputLorem(wordArray);
+    });
   }
   xmlhttp.open("GET", "data/filtered.json", true);
   xmlhttp.send();
