@@ -15,16 +15,16 @@ function expandArray(wordArray){
 }
 
 
-function outputLorem(wordArray,paragraphs,sentenceCentre,sentenceMargin,wordCentre,wordMargin){
+function outputLorem(wordArray,paragraphs,sentenceMin,sentenceMax,wordMin,wordMax){
   wordArray = expandArray(wordArray);
   lorem = "";
   totalParagraphs = paragraphs;
   for(i=0;i<totalParagraphs;i++){
     paragraph = "";
-    sentencesPerParagraph =  randPlusMinus(sentenceCentre,sentenceMargin);
+    sentencesPerParagraph =  randRange(sentenceMin,sentenceMax);
     for(j=0;j<sentencesPerParagraph;j++){
       sentence = "";
-      sentenceLength = randPlusMinus(wordCentre,wordMargin);
+      sentenceLength = randRange(wordMin,wordMax);
       for(k=0;k<sentenceLength;k++){
         word = randomWord(wordArray);
         sentence = sentence + word + " ";
@@ -48,11 +48,11 @@ function ajaxCall(callback){
       //on form submit, generate the text
       e.preventDefault();
       var paragraphs = parseInt(this.elements['paragraphs'].value);
-      var sentenceCentre = parseInt(this.elements['sentenceCentre'].value);
-      var sentenceMargin = parseInt(this.elements['sentenceMargin'].value);
-      var wordCentre = parseInt(this.elements['wordCentre'].value);
-      var wordMargin = parseInt(this.elements['wordMargin'].value);
-      outputLorem(wordArray,paragraphs,sentenceCentre,sentenceMargin,wordCentre,wordMargin);
+      var sentenceMin = parseInt(this.elements['sentenceMin'].value);
+      var sentenceMax = parseInt(this.elements['sentenceMax'].value);
+      var wordMin = parseInt(this.elements['wordMin'].value);
+      var wordMax = parseInt(this.elements['wordMax'].value);
+      outputLorem(wordArray,paragraphs,sentenceMin,sentenceMax,wordMin,wordMax);
     });
   }
   xmlhttp.open("GET", "data/filtered.json", true);
@@ -76,7 +76,7 @@ function randomWord(array){
   return word;
 }
 
-function randPlusMinus(centre,margin){
-  //returns a number baseline plus or minus margin
-  return Math.floor(Math.random() * margin * 2) + centre - margin;
+function randRange(min,max){
+  //returns an integer in a range
+  return Math.floor(min + Math.random() * (max - min));
 }
