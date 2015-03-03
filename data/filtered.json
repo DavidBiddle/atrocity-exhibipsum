@@ -69,7 +69,7 @@
   },
   {
     "word":"shot",
-    "weight":190
+    "weight":30
   },
   {
     "word":"by",
@@ -176,11 +176,11 @@
     "weight":71
   },
   {
-    "word":"karen",
+    "word":"Karen",
     "weight":70
   },
   {
-    "word":"travers",
+    "word":"Travers",
     "weight":70
   },
   {
@@ -200,7 +200,7 @@
     "weight":65
   },
   {
-    "word":"talbot",
+    "word":"Talbot",
     "weight":63
   },
   {
@@ -212,7 +212,7 @@
     "weight":60
   },
   {
-    "word":"novotny",
+    "word":"Novotny",
     "weight":58
   },
   {
@@ -228,7 +228,7 @@
     "weight":56
   },
   {
-    "word":"austin",
+    "word":"Austin",
     "weight":55
   },
   {
@@ -284,7 +284,7 @@
     "weight":49
   },
   {
-    "word":"travis",
+    "word":"Travis",
     "weight":49
   },
   {
@@ -292,7 +292,7 @@
     "weight":49
   },
   {
-    "word":"catherine",
+    "word":"Catherine",
     "weight":48
   },
   {
@@ -492,11 +492,11 @@
     "weight":32
   },
   {
-    "word":"talbert",
+    "word":"Talbert",
     "weight":32
   },
   {
-    "word":"trabert",
+    "word":"Trabert",
     "weight":32
   },
   {
@@ -540,7 +540,7 @@
     "weight":29
   },
   {
-    "word":"webster",
+    "word":"Webster",
     "weight":29
   },
   {
@@ -596,7 +596,7 @@
     "weight":26
   },
   {
-    "word":"vietnam",
+    "word":"Vietnam",
     "weight":26
   },
   {
@@ -740,7 +740,7 @@
     "weight":22
   },
   {
-    "word":"tallis",
+    "word":"Tallis",
     "weight":22
   },
   {
@@ -752,7 +752,7 @@
     "weight":22
   },
   {
-    "word":"vaughan",
+    "word":"Vaughan",
     "weight":22
   },
   {
@@ -776,7 +776,7 @@
     "weight":21
   },
   {
-    "word":"president",
+    "word":"President",
     "weight":21
   },
   {
@@ -868,8 +868,8 @@
     "weight":19
   },
   {
-    "word":"oswald",
-    "weight":19
+    "word":"Oswald",
+    "weight":14
   },
   {
     "word":"role",
@@ -912,7 +912,7 @@
     "weight":18
   },
   {
-    "word":"margaret",
+    "word":"Princess Margaret",
     "weight":18
   },
   {
@@ -929,7 +929,7 @@
   },
   {
     "word":"plaza",
-    "weight":18
+    "weight":9
   },
   {
     "word":"race",
@@ -976,7 +976,7 @@
     "weight":17
   },
   {
-    "word":"kline",
+    "word":"Kline",
     "weight":17
   },
   {
@@ -1092,7 +1092,7 @@
     "weight":16
   },
   {
-    "word":"xero",
+    "word":"Xero",
     "weight":16
   },
   {
@@ -1236,7 +1236,7 @@
     "weight":14
   },
   {
-    "word":"pontiac",
+    "word":"Pontiac",
     "weight":14
   },
   {
@@ -1316,7 +1316,7 @@
     "weight":13
   },
   {
-    "word":"japanese",
+    "word":"Japanese",
     "weight":13
   },
   {
@@ -1436,7 +1436,7 @@
     "weight":12
   },
   {
-    "word":"edward",
+    "word":"Edward",
     "weight":12
   },
   {
@@ -1464,10 +1464,6 @@
     "weight":12
   },
   {
-    "word":"iii",
-    "weight":12
-  },
-  {
     "word":"image",
     "weight":12
   },
@@ -1492,7 +1488,7 @@
     "weight":12
   },
   {
-    "word":"mrs",
+    "word":"Mrs",
     "weight":12
   },
   {
@@ -1513,10 +1509,6 @@
   },
   {
     "word":"photograph",
-    "weight":12
-  },
-  {
-    "word":"princess",
     "weight":12
   },
   {
@@ -1700,10 +1692,6 @@
     "weight":11
   },
   {
-    "word":"re",
-    "weight":11
-  },
-  {
     "word":"recognized",
     "weight":11
   },
@@ -1792,7 +1780,7 @@
     "weight":10
   },
   {
-    "word":"chiang",
+    "word":"Chiang",
     "weight":10
   },
   {
@@ -2052,7 +2040,7 @@
     "weight":9
   },
   {
-    "word":"dealey",
+    "word":"Dealey Plaza",
     "weight":9
   },
   {
@@ -2120,8 +2108,8 @@
     "weight":9
   },
   {
-    "word":"lee",
-    "weight":9
+    "word":"Lee",
+    "weight":4
   },
   {
     "word":"lines",
@@ -2240,7 +2228,7 @@
     "weight":9
   },
   {
-    "word":"tv",
+    "word":"TV",
     "weight":9
   },
   {
@@ -2248,7 +2236,7 @@
     "weight":9
   },
   {
-    "word":"universe",
+    "word":"Universe",
     "weight":9
   },
   {
@@ -2352,7 +2340,7 @@
     "weight":8
   },
   {
-    "word":"ernst",
+    "word":"Ernst",
     "weight":8
   },
   {
@@ -2536,7 +2524,7 @@
     "weight":8
   },
   {
-    "word":"tulloch",
+    "word":"Tulloch",
     "weight":8
   },
   {
@@ -2544,7 +2532,7 @@
     "weight":8
   },
   {
-    "word":"william",
+    "word":"William",
     "weight":8
   },
   {
@@ -2660,7 +2648,7 @@
     "weight":7
   },
   {
-    "word":"freud",
+    "word":"Freud",
     "weight":7
   },
   {
@@ -2716,8 +2704,8 @@
     "weight":7
   },
   {
-    "word":"jayne",
-    "weight":7
+    "word":"Jayne",
+    "weight":1
   },
   {
     "word":"junctions",
@@ -2740,7 +2728,7 @@
     "weight":7
   },
   {
-    "word":"lincoln",
+    "word":"Lincoln",
     "weight":7
   },
   {
@@ -2749,10 +2737,6 @@
   },
   {
     "word":"listening",
-    "weight":7
-  },
-  {
-    "word":"ll",
     "weight":7
   },
   {
@@ -2876,7 +2860,7 @@
     "weight":7
   },
   {
-    "word":"robert",
+    "word":"Robert",
     "weight":7
   },
   {
@@ -3004,7 +2988,7 @@
     "weight":7
   },
   {
-    "word":"zapruder",
+    "word":"Zapruder",
     "weight":7
   },
   {
@@ -3132,10 +3116,6 @@
     "weight":6
   },
   {
-    "word":"de",
-    "weight":6
-  },
-  {
     "word":"deformed",
     "weight":6
   },
@@ -3144,7 +3124,7 @@
     "weight":6
   },
   {
-    "word":"donald",
+    "word":"Donald",
     "weight":6
   },
   {
@@ -3260,7 +3240,7 @@
     "weight":6
   },
   {
-    "word":"hilton",
+    "word":"Hilton",
     "weight":6
   },
   {
@@ -3340,11 +3320,11 @@
     "weight":6
   },
   {
-    "word":"malcolm",
+    "word":"Malcolm",
     "weight":6
   },
   {
-    "word":"mansfield",
+    "word":"Jayne Mansfield",
     "weight":6
   },
   {
@@ -3608,7 +3588,7 @@
     "weight":6
   },
   {
-    "word":"traven",
+    "word":"Traven",
     "weight":6
   },
   {
@@ -3672,7 +3652,7 @@
     "weight":5
   },
   {
-    "word":"apollo",
+    "word":"Apollo",
     "weight":5
   },
   {
@@ -3688,7 +3668,7 @@
     "weight":5
   },
   {
-    "word":"bardot",
+    "word":"Bardot",
     "weight":5
   },
   {
@@ -3740,11 +3720,11 @@
     "weight":5
   },
   {
-    "word":"christ",
+    "word":"Christ",
     "weight":5
   },
   {
-    "word":"christopher",
+    "word":"Christopher",
     "weight":5
   },
   {
@@ -3792,7 +3772,7 @@
     "weight":5
   },
   {
-    "word":"congo",
+    "word":"Congo",
     "weight":5
   },
   {
@@ -3820,7 +3800,7 @@
     "weight":5
   },
   {
-    "word":"david",
+    "word":"David",
     "weight":5
   },
   {
@@ -3960,7 +3940,7 @@
     "weight":5
   },
   {
-    "word":"harvey",
+    "word":"Lee Harvey Oswald",
     "weight":5
   },
   {
@@ -4016,7 +3996,7 @@
     "weight":5
   },
   {
-    "word":"jeanne",
+    "word":"Jeanne",
     "weight":5
   },
   {
@@ -4036,7 +4016,7 @@
     "weight":5
   },
   {
-    "word":"london",
+    "word":"London",
     "weight":5
   },
   {
@@ -4056,7 +4036,7 @@
     "weight":5
   },
   {
-    "word":"mary",
+    "word":"Mary",
     "weight":5
   },
   {
@@ -4172,7 +4152,7 @@
     "weight":5
   },
   {
-    "word":"paul",
+    "word":"Paul",
     "weight":5
   },
   {
@@ -4264,7 +4244,7 @@
     "weight":5
   },
   {
-    "word":"richard",
+    "word":"Richard",
     "weight":5
   },
   {
@@ -4296,7 +4276,7 @@
     "weight":5
   },
   {
-    "word":"shanghai",
+    "word":"Shanghai",
     "weight":5
   },
   {
@@ -4424,10 +4404,6 @@
     "weight":5
   },
   {
-    "word":"ve",
-    "weight":5
-  },
-  {
     "word":"vehicle",
     "weight":5
   },
@@ -4436,7 +4412,7 @@
     "weight":5
   },
   {
-    "word":"venus",
+    "word":"Venus",
     "weight":5
   },
   {
@@ -4480,7 +4456,7 @@
     "weight":4
   },
   {
-    "word":"adams",
+    "word":"Adams",
     "weight":4
   },
   {
@@ -4516,7 +4492,7 @@
     "weight":4
   },
   {
-    "word":"anne",
+    "word":"Anne",
     "weight":4
   },
   {
@@ -4528,7 +4504,7 @@
     "weight":4
   },
   {
-    "word":"arthur",
+    "word":"Arthur",
     "weight":4
   },
   {
@@ -4568,7 +4544,7 @@
     "weight":4
   },
   {
-    "word":"barry",
+    "word":"Barry",
     "weight":4
   },
   {
@@ -4628,7 +4604,7 @@
     "weight":4
   },
   {
-    "word":"bruce",
+    "word":"Bruce",
     "weight":4
   },
   {
@@ -4636,7 +4612,7 @@
     "weight":4
   },
   {
-    "word":"camus",
+    "word":"Camus",
     "weight":4
   },
   {
@@ -4664,7 +4640,7 @@
     "weight":4
   },
   {
-    "word":"che",
+    "word":"Che",
     "weight":4
   },
   {
@@ -4776,7 +4752,7 @@
     "weight":4
   },
   {
-    "word":"davis",
+    "word":"Davis",
     "weight":4
   },
   {
@@ -4852,7 +4828,7 @@
     "weight":4
   },
   {
-    "word":"eatherly",
+    "word":"Claude Eatherly",
     "weight":4
   },
   {
@@ -4988,7 +4964,7 @@
     "weight":4
   },
   {
-    "word":"george",
+    "word":"George",
     "weight":4
   },
   {
@@ -5012,7 +4988,7 @@
     "weight":4
   },
   {
-    "word":"hathaway",
+    "word":"Hathaway",
     "weight":4
   },
   {
@@ -5136,7 +5112,7 @@
     "weight":4
   },
   {
-    "word":"madonna",
+    "word":"Madonna",
     "weight":4
   },
   {
@@ -5180,7 +5156,7 @@
     "weight":4
   },
   {
-    "word":"moreau",
+    "word":"Moreau",
     "weight":4
   },
   {
@@ -5200,7 +5176,7 @@
     "weight":4
   },
   {
-    "word":"nagamatzu",
+    "word":"Nagamatzu",
     "weight":4
   },
   {
@@ -5372,7 +5348,7 @@
     "weight":4
   },
   {
-    "word":"quinton",
+    "word":"Quinton",
     "weight":4
   },
   {
@@ -5428,7 +5404,7 @@
     "weight":4
   },
   {
-    "word":"roger",
+    "word":"Roger",
     "weight":4
   },
   {
@@ -5484,7 +5460,7 @@
     "weight":4
   },
   {
-    "word":"sikorsky",
+    "word":"Sikorsky",
     "weight":4
   },
   {
@@ -5496,7 +5472,7 @@
     "weight":4
   },
   {
-    "word":"smith",
+    "word":"Smith",
     "weight":4
   },
   {
@@ -5520,7 +5496,7 @@
     "weight":4
   },
   {
-    "word":"staines",
+    "word":"Staines",
     "weight":4
   },
   {
@@ -5636,7 +5612,7 @@
     "weight":4
   },
   {
-    "word":"walter",
+    "word":"Walter",
     "weight":4
   },
   {
@@ -5644,11 +5620,7 @@
     "weight":4
   },
   {
-    "word":"warren",
-    "weight":4
-  },
-  {
-    "word":"washburn",
+    "word":"Warren",
     "weight":4
   },
   {
@@ -5660,7 +5632,7 @@
     "weight":4
   },
   {
-    "word":"williams",
+    "word":"Williams",
     "weight":4
   },
   {
