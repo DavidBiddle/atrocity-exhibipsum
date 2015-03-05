@@ -12,13 +12,13 @@
       <h2>Ballardian Text Generator</h2>
       <form id="lorem-form">
         <label for="paragraphs">Number of paragraphs:</label>
-        <input type="text" name="paragraphs">
+        <input type="text" name="paragraphs" type="number" value="3">
         <label for="sentenceCentre">Number of sentences per paragraph:</label>
-        <input type="text" name="sentenceMin"> to
-        <input type="text" name="sentenceMax">
+        <input type="text" name="sentenceMin" type="number" value="1"> to
+        <input type="text" name="sentenceMax" type="number" value="10">
         <label for="sentenceCentre">Number of words per sentence:</label>
-        <input type="text" name="wordMin"> to
-        <input type="text" name="wordMax">
+        <input type="text" name="wordMin" type="number" value="1"> to
+        <input type="text" name="wordMax" type="number" value="30">
         <input type="submit" value="Generate!">
       </form>
       <section id="output-zone"></section>
