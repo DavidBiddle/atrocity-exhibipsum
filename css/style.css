@@ -39,3 +39,8 @@ form label, form input[type=submit]{
 form input[type=text]{
   margin-bottom: 1em;
 }
+
+@media screen and (max-width: 500px) {
+  h1{font-size: 48px;}
+  h2{font-size: 28px;}
+}
