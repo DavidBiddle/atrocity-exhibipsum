@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function(){
 function expandArray(wordArray){
 //expands a weighted array
   expandedArray = [];
-
   for(i=0;i<wordArray.length;i++){
     for(j=0;j<wordArray[i].weight;j++){
       expandedArray.push(wordArray[i].word);
@@ -16,6 +15,8 @@ function expandArray(wordArray){
 
 
 function outputLorem(wordArray,paragraphs,sentenceMin,sentenceMax,wordMin,wordMax){
+  /*Uses the word array to generate a set number of paragraphs of variable length
+    and puts them in the output div*/
   wordArray = expandArray(wordArray);
   lorem = "";
   totalParagraphs = paragraphs;
@@ -66,6 +67,7 @@ function formatSentence(sentence){
 }
 
 function formatParagraph(paragraph){
+  //adds paragraph tags to paragraph
   paragraph = "<p>" + paragraph + "</p>";
   return paragraph;
 }
