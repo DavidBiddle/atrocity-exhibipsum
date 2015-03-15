@@ -8,6 +8,21 @@ body{
   color: #1E1E20;
 }
 
+::-moz-selection{
+  background: #DF0901;
+  color: #1E1E20;
+}
+
+::selection{
+  background: #DF0901;
+  color: #1E1E20;
+} 
+
+form label, form input{
+  font-size: 20px;
+  font-family: 'Oswald',impact,sans-serif;
+}
+
 #wrapper{
   margin-top: 0;
   max-width: 600px;
@@ -15,32 +30,39 @@ body{
   margin: auto;
   box-sizing: border-box;
   padding: 0 20px 20px;
+  font-size: 20px;
 }
 
 h1{
   color: #DF0901;
-  font-size: 72px;
+  font-size: 48px;
   text-transform: uppercase;
   margin-bottom: .5em;
 }
 
 h2{
-  font-size: 36px;
+  font-size: 28px;
   text-transform: uppercase; 
   margin-bottom: 1em;
 }
 
 form label, form input[type=submit]{
   display: block;
-  font-size: 16px;  
   font-family: 'Oswald',impact,sans-serif;
 }
 
 form input[type=text]{
   margin-bottom: 1em;
+  width: 100%;
 }
 
-@media screen and (max-width: 500px) {
-  h1{font-size: 48px;}
-  h2{font-size: 28px;}
+@media screen and (min-width: 500px) {
+  h1{font-size: 72px;}
+  h2{font-size: 36px;}
+}
+
+@media screen and (min-width: 600px) {
+  form input[type=text]{
+    width: 255px;
+  }
 }
