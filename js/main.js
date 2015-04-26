@@ -39,7 +39,7 @@ function outputLorem(wordArray,paragraphs,sentenceMin,sentenceMax,wordMin,wordMa
   document.getElementById('output-zone').innerHTML = (lorem);
 }
 
-function ajaxCall(callback){
+function ajaxCall(){
   //retrieves data file via AJAX and then calls output function
   var xmlhttp;
   xmlhttp = new XMLHttpRequest();
